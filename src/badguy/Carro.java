@@ -89,7 +89,7 @@ public class Carro {
 			System.out.println("Nova quilometragem: "+novoKilo+". Tudo certo! Seu carro ainda pode rodar. Deseja adicionar mais quilômetros? [S / N]");			
 			String r = leia.nextLine();			
 			if (r.equalsIgnoreCase("s")) {
-				System.out.println("Digite a nova quilometragem: ");
+				System.out.println("Digite a novsssa quilometragem: ");
 				this.novoKilo = leia.nextDouble();
 				
 				if (this.novoKilo >= 5000) {
